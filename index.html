@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcademyNet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="sliderPicker">
+            <p>
+                Choose a color for:
+            </p>
+            <ul id="colorTarget">
+                <li>
+                    <label for="shirt" class="label">
+                        <input type="radio" id="shirt" name="colors" value="shirt" checked />
+                        Shirt
+                    </label>
+                </li>
+                <li>
+                    <label for="pants" class="label">
+                        <input type="radio" id="pants" name="colors" value="pants" />
+                        Pants
+                    </label>
+                </li>
+                <li>
+                    <label for="shoes" class="label">
+                        <input type="radio" id="shoes" name="colors" value="shoes" />
+                        Shoes
+                    </label>
+                </li>
+            </ul>
+            <div id="picker"></div>
+        </div>
+
+        <div id="model">
+            <img id="bodyImg" src="/images/body.webp" alt="">
+            <img id="shoesImg" src="/images//shoes_1.webp" alt="">
+            <img id="pantsImg" src="/images//pants_1.webp" alt="">
+            <img id="shirtImg" src="/images//shirt_1.webp" alt="">
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+<script src="scirpt.js"></script>
+
+</html>
